@@ -1,0 +1,13 @@
+{
+  "name": "campus-connect-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Helper npm scripts for running the FastAPI backend (uses uvicorn)",
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000",
+    "dev": "uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "install-python-deps": "python -m pip install -r ../requirements.txt"
+  },
+  "author": "Campus Team",
+  "license": "MIT"
+}
